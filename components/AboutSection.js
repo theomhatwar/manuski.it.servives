@@ -24,7 +24,7 @@ const AboutSection = () => {
           {/* Content - Full width on mobile, half on desktop */}
           <div className="w-full md:w-1/2">
             <span className="inline-block text-emerald-600 font-semibold mb-2 text-sm md:text-base">
-              LET'S KNOW
+              LETS KNOW
             </span>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 md:mb-6">
               About Us

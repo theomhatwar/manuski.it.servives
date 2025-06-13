@@ -20,11 +20,10 @@ const ContactSection = () => {
             Get In <span className="text-emerald-600">Touch</span>
           </h2>
           <p className="text-sm sm:text-base text-gray-600">
-            Have questions? Reach out to our team - we'd love to hear from you.
+            Have questions? Reach out to our team - we had love to hear from you.
           </p>
         </motion.div>
       </div>
-
       {/* Map and Form Section */}
       <div className="container px-4 sm:px-6 py-6 pb-12 mx-auto flex flex-col">
         {/* Contact Info - Stacked on mobile */}
@@ -102,7 +101,7 @@ const ContactSection = () => {
             Send Us a Message
           </h2>
           <p className="text-sm text-gray-600 mb-4">
-            Fill the form below and we'll respond within 24 hours.
+            Fill the form below and we will respond within 24 hours.
           </p>
           
           <div className="space-y-4">

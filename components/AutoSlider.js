@@ -36,7 +36,7 @@ const slides = [
           Absolutely Responsive
         </h3>
         <p className="mb-6 text-sm sm:text-base leading-relaxed">
-          Unlock your business's potential with tailored IT solutions. From AI-powered tools to secure networking, our expertise ensures you stay ahead in a rapidly evolving digital landscape.
+          Unlock your business potential with tailored IT solutions. From AI-powered tools to secure networking, our expertise ensures you stay ahead in a rapidly evolving digital landscape.
         </p>
         <button className="bg-white hover:bg-gray-100 text-black font-semibold px-5 py-2 rounded-lg text-sm flex items-center group">
           Visit Now <FiArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
