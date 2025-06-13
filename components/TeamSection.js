@@ -5,26 +5,26 @@ import { motion } from "framer-motion";
 const TeamSection = () => {
   const teamMembers = [
     {
-      name: "Alex Johnson",
-      role: "Lead Developer",
+      name: "Rajesh Kumar",
+      role: "Senior Software Developer",
       bio: "10+ years building scalable web apps",
       img: "https://empoweryoutechnologies.in/uploads/images/team/1773927219090447.jpg"
     },
     {
-      name: "Sarah Williams",
-      role: "UI/UX Designer",
-      bio: "Creates intuitive user interfaces",
+      name: "Akshay Bhalerao",
+      role: "CEO and Founder",
+      bio: "CEO and Founder of Manuski welfare Association",
       img: "https://empoweryoutechnologies.in/uploads/images/team/1819306761069657.png"
     },
     {
-      name: "Michael Chen",
-      role: "DevOps Engineer",
-      bio: "Cloud infrastructure specialist",
+      name: "Nisha Mahajan",
+      role: "Vertical HR Head",
+      bio: "managing human resources at manuski welfare association",
       img: "https://empoweryoutechnologies.in/uploads/images/team/1819306824662492.png"
     },
     {
-      name: "Priya Patel",
-      role: "Product Manager",
+      name: "Sakshi Dhawale",
+      role: "Business Development Manager",
       bio: "Bridges business and technology",
       img: "https://empoweryoutechnologies.in/uploads/images/team/1819306886637478.png"
     }

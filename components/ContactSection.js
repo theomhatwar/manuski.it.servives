@@ -52,8 +52,8 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Email Us</h3>
-                  <a href="mailto:info@empowertech.com" className="text-emerald-600 text-sm hover:text-emerald-800 transition-colors">
-                    info@empowertech.com
+                  <a href="mailto:manuskiwelfareassociation@gmail.com" className="text-emerald-600 text-sm hover:text-emerald-800 transition-colors">
+                    manuskiwelfareassociation@gmail.com
                   </a>
                 </div>
               </div>
