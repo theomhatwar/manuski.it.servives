@@ -1,0 +1,26 @@
+[
+    {
+      name: "Alex Johnson",
+      role: "Lead Developer",
+      bio: "Full-stack wizard with 10+ years of experience building scalable web applications.",
+      img: "https://empoweryoutechnologies.in/uploads/images/team/1773927219090447.jpg"
+    },
+    {
+      name: "Sarah Williams",
+      role: "UI/UX Designer",
+      bio: "Creates beautiful, intuitive interfaces focused on user experience and accessibility.",
+      img: "https://empoweryoutechnologies.in/uploads/images/team/1819306761069657.png"
+    },
+    {
+      name: "Michael Chen",
+      role: "DevOps Engineer",
+      bio: "Cloud infrastructure specialist ensuring our systems are always fast and reliable.",
+      img: "https://empoweryoutechnologies.in/uploads/images/team/1819306824662492.png"
+    },
+    {
+      name: "Priya Patel",
+      role: "Product Manager",
+      bio: "Bridges business goals with technical solutions to deliver exceptional products.",
+      img: "https://empoweryoutechnologies.in/uploads/images/team/1819306886637478.png"
+    }
+  ]
