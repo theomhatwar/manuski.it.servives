@@ -22,12 +22,12 @@ const TeamSection = () => {
       bio: "managing human resources at manuski welfare association",
       img: "https://empoweryoutechnologies.in/uploads/images/team/1819306824662492.png"
     },
-    {
-      name: "Sakshi Dhawale",
-      role: "Business Development Manager",
-      bio: "Bridges business and technology",
-      img: "https://empoweryoutechnologies.in/uploads/images/team/1819306886637478.png"
-    }
+    // {
+    //   name: "Sakshi Dhawale",
+    //   role: "Business Development Manager",
+    //   bio: "Bridges business and technology",
+    //   img: "https://empoweryoutechnologies.in/uploads/images/team/1819306886637478.png"
+    // }
   ];
 
   return (
@@ -75,7 +75,7 @@ const TeamSection = () => {
         </div>
 
         {/* Team Members - Desktop Layout */}
-        <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {teamMembers.map((member, index) => (
             <motion.div
               key={index}

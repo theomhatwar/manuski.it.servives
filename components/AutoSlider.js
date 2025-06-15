@@ -6,22 +6,27 @@ const slides = [
   {
     image: "/green.jpg",
     overlay: (
-      <div className="text-white w-full max-w-xs sm:max-w-sm md:max-w-md px-3 py-6 rounded-lg">
-        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 leading-tight">
+      <div className="text-white w-full max-w-xs sm:max-w-sm md:max-w-md px-3 py-3 rounded-lg">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mt-1 mb-2 leading-tight">
           WELCOME TO <span className="text-emerald-400">MANUSKI</span> WELFARE ASSOCIATIONS
         </h2>
-        <h3 className="text-base sm:text-lg md:text-xl font-semibold mb-4 text-emerald-300">
-          TRANSFORM YOUR BUSINESS WITH TECHNOLOGY
-        </h3>
-        <p className="mb-6 text-sm sm:text-base leading-relaxed">
-          We specialize in software development, cloud services and IT consulting to drive growth and efficiency.
+       
+        <p className="mb-3 text-sm sm:text-base leading-relaxed">
+            TRANSFORM YOUR BUSINESS WITH CUTTING-EDGE TECHNOLOGY SOLUTIONS. AT MANUSKI WELFARE ASSOCIATION , WE SPECIALIZE IN SOFTWARE DEVELOPMENT, CLOUD SERVICES AND IT CONSULTING TO DRIVE GROWTH AND ENHANCE EFFICIENCY FOR GLOBAL CLIENTS.
         </p>
         <div className="space-y-3">
           <button className="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-5 py-2 rounded-lg text-sm flex items-center group">
             CONNECT NOW <FiArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
           </button>
-       
         </div>
+         <h3 className="text-base sm:text-lg md:text-xl font-semibold mb-4 mt-2 text-white">
+          MORE INFORMATION CONTACT AS : <a
+        href="mailto:manuskiwelfareassociations.in"
+        
+      >
+       MANUSKIWELFAREASSOCIATIONS.IN
+      </a>
+          </h3>
       </div>
     ),
   },
@@ -30,11 +35,11 @@ const slides = [
     overlay: (
       <div className="text-white w-full max-w-xs sm:max-w-sm md:max-w-md px-3 py-6 rounded-lg">
         <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3">
-          WEB DEVELOPMENT <span className="text-emerald-400">SOLUTIONS</span>
+          WEB DEVELOPMENT <span className="text-emerald-400">ASSOCIATIONS</span>
         </h2>
-        <h3 className="text-base sm:text-lg md:text-xl font-semibold mb-4 text-emerald-300">
+        {/* <h3 className="text-base sm:text-lg md:text-xl font-semibold mb-4 text-emerald-300">
           Absolutely Responsive
-        </h3>
+        </h3> */}
         <p className="mb-6 text-sm sm:text-base leading-relaxed">
           Unlock your business potential with tailored IT solutions. From AI-powered tools to secure networking, our expertise ensures you stay ahead in a rapidly evolving digital landscape.
         </p>
@@ -55,11 +60,19 @@ const slides = [
           POWERING DIGITAL TRANSFORMATION
         </h3>
         <p className="mb-6 text-sm sm:text-base leading-relaxed">
-          Boost Your Online Presence with Expert Digital Marketing Solutions with Manuski Welfare
+          Boost Your Online Presence with Expert Digital Marketing Solutions with Manuski Welfare Association
         </p>
         <button className="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-5 py-2 rounded-lg text-sm flex items-center group">
           Contact Us <FiArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
         </button>
+         <h3 className="text-base sm:text-lg md:text-xl mt-2 font-semibold mb-4 text-white">
+         <a
+        href="mailto:manuskiwelfareassociations.in"
+        
+      >
+       MANUSKIWELFAREASSOCIATIONS.IN
+      </a>
+        </h3>
       </div>
     ),
   },

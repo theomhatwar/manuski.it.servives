@@ -32,8 +32,8 @@ const ContactSocialBar = () => {
           {/* Legal Info - Responsive */}
           <div className="hidden md:flex items-center bg-gray-800/50 rounded-lg px-3 py-1 border border-gray-700">
             <div className="text-center text-xs text-gray-300">
-              <p className="font-medium">MANUSKI WELFARE ASSOCIATION</p>
-              <p className="text-[0.65rem]">CIN: U85300PN2022NPL207615 | PAN: AAPCM3560K</p>
+              {/* <p className="font-medium">MANUSKI WELFARE ASSOCIATION</p> */}
+              <p className="text-xl">CIN: U85300PN2022NPL207615 | PAN: AAPCM3560K</p>
             </div>
           </div>
         </div>
