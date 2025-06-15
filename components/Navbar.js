@@ -50,29 +50,23 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="flex items-center justify-center w-12 h-12 rounded-full bg-emerald-100">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-8 w-8 text-emerald-600"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
-                />
-              </svg>
+             <img src="/manuski.png" alt="" />
             </div>
             <div className="flex flex-col justify-center items-start">
               <span className="text-xl font-bold text-gray-800">MANUSKI</span>
-              <span className="text-sm text-gray-800">Welfare Association</span>
+              <span className="text-xs text-gray-800">Welfare Association</span>
             </div>
           </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
+            {/* Legal Info - Responsive */}
+            <div className="hidden md:flex items-center text-black  px-3 py-1 ">
+              <p className="text-lg">CIN: U85300PN2022NPL207615 | PAN: AAPCM3560K</p>
+
+            </div>
+
+
             <Link href="/" className="text-gray-700 hover:text-emerald-600 px-3 py-2 text-sm font-medium transition-colors duration-300">
               Home
             </Link>
@@ -84,7 +78,7 @@ const Navbar = () => {
                 onClick={() => setIsLegalOpen(!isLegalOpen)}
                 onMouseEnter={() => setIsLegalOpen(true)}
               >
-                Legal
+                Legal Certificates
                 <svg
                   className={`ml-1 w-4 h-4 transition-transform ${isLegalOpen ? 'rotate-180' : ''}`}
                   fill="none"
@@ -133,10 +127,10 @@ const Navbar = () => {
               Services
             </Link>
             <Link href="/contact-us" className="text-gray-700 hover:text-emerald-600 px-3 py-2 text-sm font-medium transition-colors duration-300">
-              Contact Us
+              Contact 
             </Link>
             <button className="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-md text-sm font-medium transition duration-300 shadow-md">
-              Get a Quote
+              Explore
             </button>
           </div>
 
@@ -268,18 +262,18 @@ const Navbar = () => {
             </a>
           </div>
           {/* Legal Info - Responsive */}
-        
-            <div className="text-center flex justify-center items-start flex-col text-xs text-gray-950">
-              <p className="font-medium">MANUSKI WELFARE ASSOCIATION</p>
-              <p className="text-[0.65rem]">CIN: U85300PN2022NPL207615 | PAN: AAPCM3560K</p>
-            
+
+          <div className="text-center flex justify-center items-start flex-col text-xs text-gray-950">
+            <p className="font-medium">MANUSKI WELFARE ASSOCIATION</p>
+            <p className="text-[0.65rem]">CIN: U85300PN2022NPL207615 | PAN: AAPCM3560K</p>
+
           </div>
           <li className="pt-2">
             <button
               className="w-full bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-md text-sm font-medium transition duration-300 shadow-md"
               onClick={() => setIsMenuOpen(false)}
             >
-              Get a Quote
+              Explore
             </button>
           </li>
         </ul>

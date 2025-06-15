@@ -11,10 +11,10 @@ const TeamSection = () => {
       img: "https://empoweryoutechnologies.in/uploads/images/team/1773927219090447.jpg"
     },
     {
-      name: "Akshay Bhalerao",
+      name: "Ashwini Virendra Salvi",
       role: "CEO and Founder",
       bio: "CEO and Founder of Manuski welfare Association",
-      img: "https://empoweryoutechnologies.in/uploads/images/team/1819306761069657.png"
+      img: "/salvi.jpeg"
     },
     {
       name: "Nisha Mahajan",
